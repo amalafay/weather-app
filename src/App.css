@@ -1,0 +1,41 @@
+.container {
+	background-image: url('./assets/images/clima.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: #1111116e;
+	max-width: 500px;
+	width: 100%;
+	padding: 20px;
+	border-radius: 12px;
+}
+
+.card_header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.error {
+	background-color: #646cff0c;
+	border: 1px solid #f52e2e;
+	padding: 10px;
+	border-radius: 8px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.error_icon {
+	width: 16px;
+	color: #f52e2e;
+}
