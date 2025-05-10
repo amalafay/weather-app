@@ -1,4 +1,3 @@
-import React from 'react';
 import { LocateFixed } from 'lucide-react';
 import './LocationButton.css';
 
@@ -22,7 +21,12 @@ function LocationButton({ setCoords, setError }) {
 	};
 
 	return (
-		<button type="button" onClick={handleLocation} className="location">
+		<button
+			type="button"
+			onClick={handleLocation}
+			className="location"
+			title="Conoce el Clima en tu zona"
+		>
 			<LocateFixed className="location-icon" />
 		</button>
 	);

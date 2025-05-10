@@ -6,6 +6,10 @@
 	align-items: center;
 	padding-block: 10px;
 }
+.location.title {
+	border-radius: 10px;
+	color: #ffe100;
+}
 
 .location-icon {
 	width: 20px;
